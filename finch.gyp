@@ -39,9 +39,14 @@
       },
     },
     'include_dirs': [
+      'src',
       'src/Base',
+      'src/Syntax',
       'src/Compiler',
       'src/Interpreter',
+      'src/Interpreter/Objects',
+      'src/Syntax/AST',
+      'src/Interpreter/Primitives'
     ],
     'sources': [
       'src/Base/Array.h',

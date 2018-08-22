@@ -7,7 +7,7 @@
 # Build files
 build/
 objects/
-
+out/
 # Editor temp files
 .*.swp
 
