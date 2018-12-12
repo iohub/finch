@@ -5,18 +5,16 @@
 #include "Object.h"
 #include "Ref.h"
 
-namespace Finch
-{
-    PRIMITIVE(PrimitiveStringConcat);
-    PRIMITIVE(PrimitiveStringCompare);
+namespace Finch {
+PRIMITIVE(PrimitiveStringConcat);
+PRIMITIVE(PrimitiveStringCompare);
 
-    PRIMITIVE(PrimitiveWrite);
-    
-    /*
-    PRIMITIVE(PrimitiveNewFiber);
-    PRIMITIVE(PrimitiveGetCurrentFiber);
-    PRIMITIVE(PrimitiveSwitchToFiber);
-     */
-    PRIMITIVE(PrimitiveGetCallstackDepth);
-}
+PRIMITIVE(PrimitiveWrite);
 
+/*
+PRIMITIVE(PrimitiveNewFiber);
+PRIMITIVE(PrimitiveGetCurrentFiber);
+PRIMITIVE(PrimitiveSwitchToFiber);
+ */
+PRIMITIVE(PrimitiveGetCallstackDepth);
+} // namespace Finch

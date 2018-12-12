@@ -5,10 +5,7 @@
 #include "Object.h"
 #include "Ref.h"
 
-namespace Finch
-{
-    // Primitive methods for IO.
-    PRIMITIVE(IoReadFile);
-}
-
-
+namespace Finch {
+// Primitive methods for IO.
+PRIMITIVE(IoReadFile);
+} // namespace Finch

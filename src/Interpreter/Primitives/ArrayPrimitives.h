@@ -5,13 +5,11 @@
 #include "Object.h"
 #include "Ref.h"
 
-namespace Finch
-{
-    // Primitive methods for array objects.
-    PRIMITIVE(ArrayCount);
-    PRIMITIVE(ArrayAdd);
-    PRIMITIVE(ArrayAt);
-    PRIMITIVE(ArrayAtPut);
-    PRIMITIVE(ArrayRemoveAt);
-}
-
+namespace Finch {
+// Primitive methods for array objects.
+PRIMITIVE(ArrayCount);
+PRIMITIVE(ArrayAdd);
+PRIMITIVE(ArrayAt);
+PRIMITIVE(ArrayAtPut);
+PRIMITIVE(ArrayRemoveAt);
+} // namespace Finch

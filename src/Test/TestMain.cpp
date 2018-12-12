@@ -8,19 +8,17 @@
 #include "StringTests.h"
 #include "TokenTests.h"
 
+int main(int argc, char *const argv[]) {
+  using namespace Finch;
 
-int main (int argc, char * const argv[])
-{
-    using namespace Finch;
-    
-    ArrayTests::Run();
-    LexerTests::Run();
-    QueueTests::Run();
-    RefTests::Run();
-    StackTests::Run();
-    StringTests::Run();
-    TokenTests::Run();
-    
-    Test::ShowResults();
-    return 0;
+  ArrayTests::Run();
+  LexerTests::Run();
+  QueueTests::Run();
+  RefTests::Run();
+  StackTests::Run();
+  StringTests::Run();
+  TokenTests::Run();
+
+  Test::ShowResults();
+  return 0;
 }

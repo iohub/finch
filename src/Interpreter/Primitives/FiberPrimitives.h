@@ -5,11 +5,8 @@
 #include "Object.h"
 #include "Ref.h"
 
-namespace Finch
-{
-    // Primitive methods for fibers.
-    PRIMITIVE(FiberRunning);
-    PRIMITIVE(FiberDone);
-}
-
-
+namespace Finch {
+// Primitive methods for fibers.
+PRIMITIVE(FiberRunning);
+PRIMITIVE(FiberDone);
+} // namespace Finch
