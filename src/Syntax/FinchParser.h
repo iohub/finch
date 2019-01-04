@@ -2,6 +2,7 @@
 
 #include "Array.h"
 #include "Expr.h"
+#include "DefineExpr.h"
 #include "FinchString.h"
 #include "Macros.h"
 #include "Parser.h"
